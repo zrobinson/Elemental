@@ -1,4 +1,4 @@
-# GENERAL INFORMATION ABOUT ELEMENTAL
+## ELEMENTAL
 
 Elemental is a PHP micro framework. It is an experimental, minimalistic and lightweight 
 MVC-based application framework suitable for creating simple web applications. 
