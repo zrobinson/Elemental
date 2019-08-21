@@ -1,0 +1,31 @@
+------------------------------------
+INSTALL ELEMENTAL SAMPLE APPLICATION
+------------------------------------
+
+Requirements:
+- The elemental sample application requires MySQL 5 to be installed and available 
+from PHP.
+
+To install the Elemental sample application, follow the steps below:
+
+1) simply copy the contents of the "sample" directory to your web host one level
+above your web host's document root. 
+
+Example,
+    www/
+        Elemental/
+            sample/
+        public_html/
+
+2) copy the contents of the "public" directory to your web host document root 
+(e.g. "public_html").
+
+3) Run the MySQL database script "survey.sql" located in the "data" directory.
+You must have valid access priviges to a MySQL database server to do this.
+
+Example, 
+    $> mysql -u myuser -pmypassword < survey.sql
+    
+4) Change the configuration settings in the "survey_config.php" file as applies to 
+your situation. If you have followed the instructions above exactly, this should 
+only involve the MySQL database username and password settings.
